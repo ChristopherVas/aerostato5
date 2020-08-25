@@ -77,7 +77,7 @@ public class RandomSpawn2Script : MonoBehaviour
                     Instantiate(prefab15, transform.position, Quaternion.identity);
                     break;
             }
-            float x = Random.Range(3.0f, 9.0f);
+            float x = Random.Range(1.0f, 3.0f);
             spawnRate = x;
             nextSpawn = Time.time + spawnRate;
         }
